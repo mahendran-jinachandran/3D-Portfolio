@@ -25,10 +25,10 @@ const words = [
 ];
 
 const counterItems = [
-    { value: 15, suffix: "+", label: "Years of Experience" },
-    { value: 200, suffix: "+", label: "Satisfied Clients" },
-    { value: 108, suffix: "+", label: "Completed Projects" },
-    { value: 90, suffix: "%", label: "Client Retention Rate" },
+    { value: 3, suffix: "+", label: "Years of Experience" },
+    { value: 10, suffix: "+", label: "Applications & ML Projects Delivered" },
+    { value: 4, suffix: ".0/4.0", label: " Masters Dissertation Score" },
+    { value: 1, suffix: "G", label: "Stamp" },
 ];
 
 const logoIconsList = [
@@ -144,41 +144,40 @@ const techStackIcons = [
 const expCards = [
     {
         review:
-            "Adrian brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
-        imgPath: "/images/exp1.png",
-        logoPath: "/images/logo1.png",
-        title: "Frontend Developer",
-        date: "January 2023 - Present",
+            "Mahendran consistently brought innovation and technical depth to the team, modernizing our frameworks and improving app performance across platforms through his proactive approach.",
+        imgPath: "/images/zoho.jpg",
+        logoPath: "/images/zohoLogo.jpg",
+        title: "Member Technical Staff",
+        date: "July 2022 - July 2024",
         responsibilities: [
-            "Developed and maintained user-facing features for the Hostinger website.",
-            "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
-            "Optimized web applications for maximum speed and scalability.",
+            "Led the migration of Zoho Desk iOS apps from iOS 12 to iOS 14 and introduced iOS 17 support, improving team productivity by 10%.",
+            "Designed and deployed a UI framework using SwiftUI and UIKit, reducing redundant code by 50% across 20+ apps.",
+            "Optimized app performance by implementing async/await, reducing code lines by 20% and improving responsiveness by 25%.",
         ],
     },
     {
         review:
-            "Adrian’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-        imgPath: "/images/exp2.png",
-        logoPath: "/images/logo2.png",
-        title: "Full Stack Developer",
-        date: "June 2020 - December 2023",
+            "Mahendran quickly mastered new technologies and delivered scalable, well-architected solutions. His problem-solving skills and dedication earned him the Best Performer award.”.",
+        imgPath: "/images/zoho.jpg",
+        logoPath: "/images/zohoLogo.jpg",
+        title: "Software Developer Intern",
+        date: "April 2022 - June 2022",
         responsibilities: [
-            "Led the development of Docker's web applications, focusing on scalability.",
-            "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-            "Contributed to open-source projects that were used with the Docker ecosystem.",
+            "Designed and implemented scalable Fintech and E-commerce applications using Java 8 and SQL, applying design patterns and SOLID principles for maintainability and scalability.",
+            "Collaborated with mentors and senior engineers to analyze requirements, design efficient data models, and deliver end-to-end solutions",
+            "Developed clean, reusable code architectures that improved modularity and reduced debugging time.",
         ],
     },
     {
         review:
-            "Adrian’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-        imgPath: "/images/exp3.png",
-        logoPath: "/images/logo3.png",
-        title: "React Native Developer",
-        date: "March 2019 - May 2020",
+            "Mahendran showed exceptional ownership and efficiency. His automation scripts and backend optimization reduced turnaround times and boosted performance",
+        imgPath: "/images/multicoreware.jpg",
+        logoPath: "/images/multicorewareLogo.jpg",
+        title: "Software Developer",
+        date: "September 2021 - March 2022",
         responsibilities: [
-            "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-            "Improved app performance and user experience through code optimization and testing.",
-            "Coordinated with the product team to implement features based on feedback.",
+            "Built and optimized API endpoints using Python (FastAPI) and RedisDB, reducing response times by 20% and improving performance by 25%",
+            "Automated data extraction from Excel and Word files with custom Bash scripts, eliminating manual work and improving workflow efficiency.",
         ],
     },
 ];
@@ -246,13 +245,13 @@ const testimonials = [
 const socialImgs = [
     {
         name: "insta",
-        url: "https://www.instagram.com/",
+        url: "https://www.instagram.com/_mithu_29/",
         imgPath: "/images/insta.png",
     },
     {
-        name: "fb",
-        url: "https://www.facebook.com/",
-        imgPath: "/images/fb.png",
+        name: "Git",
+        url: "https://github.com/mahendran-jinachandran",
+        imgPath: "/images/git.png",
     },
     {
         name: "x",
@@ -261,7 +260,7 @@ const socialImgs = [
     },
     {
         name: "linkedin",
-        url: "https://www.linkedin.com/",
+        url: "https://www.linkedin.com/in/mahendran-jinachandran/",
         imgPath: "/images/linkedin.png",
     },
 ];
