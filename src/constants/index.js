@@ -1,8 +1,8 @@
 const navLinks = [
-    // {
-    //     name: "Work",
-    //     link: "#work",
-    // },
+    {
+        name: "Work",
+        link: "#work",
+    },
     {
         name: "Experience",
         link: "#experience",
@@ -145,8 +145,8 @@ const expCards = [
     {
         review:
             "Mahendran consistently brought innovation and technical depth to the team, modernizing our frameworks and improving app performance across platforms through his proactive approach.",
-        imgPath: "/images/zoho.jpg",
-        logoPath: "/images/zohoLogo.jpg",
+        imgPath: "/images/zoho.svg",
+        logoPath: "/images/zoho.svg",
         title: "Software Engineer",
         date: "April 2022 - July 2024",
         responsibilities: [
@@ -159,8 +159,8 @@ const expCards = [
     {
         review:
             "Mahendran quickly mastered new technologies and delivered scalable, well-architected solutions. His problem-solving skills and dedication earned him the Best Performer award.”.",
-        imgPath: "/images/zoho.jpg",
-        logoPath: "/images/zohoLogo.jpg",
+        imgPath: "/images/zoho.svg",
+        logoPath: "/images/zoho.svg",
         title: "Software Engineer",
         date: "April 2022 - June 2024",
         responsibilities: [
@@ -172,8 +172,8 @@ const expCards = [
     {
         review:
             "Mahendran showed exceptional ownership and efficiency. His automation scripts and backend optimization reduced turnaround times and boosted performance",
-        imgPath: "/images/multicoreware.jpg",
-        logoPath: "/images/multicorewareLogo.jpg",
+        imgPath: "/images/multicoreware.svg",
+        logoPath: "/images/multicoreware.svg",
         title: "Software Developer",
         date: "September 2021 - March 2022",
         responsibilities: [

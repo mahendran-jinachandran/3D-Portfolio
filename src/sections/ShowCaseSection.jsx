@@ -49,15 +49,14 @@ const AppShowcase = () => {
                 <div className="showcaselayout">
                     <div ref={rydeRef} className="first-project-wrapper">
                         <div className="image-wrapper">
-                            <img src="/images/project1.png" alt="Ryde App Interface" />
+                            <img src="/images/HomeHubLogo.png" alt="Home Hub Interface" />
                         </div>
                         <div className="text-content">
                             <h2>
-                                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                                called Ryde
+                                Real-time smart home management system
                             </h2>
                             <p className="text-white-50 md:text-xl">
-                                An app built with React Native, Expo, & TailwindCSS for a fast,
+                                An app built with Spring Boot, Kafka, & Docker for a fast,
                                 user-friendly experience.
                             </p>
                         </div>
@@ -67,18 +66,18 @@ const AppShowcase = () => {
                         <div className="project" ref={libraryRef}>
                             <div className="image-wrapper bg-[#FFEFDB]">
                                 <img
-                                    src="/images/project2.png"
-                                    alt="Library Management Platform"
+                                    src="/images/medsynclogo.png"
+                                    alt="Medical Management Platform"
                                 />
                             </div>
-                            <h2>The Library Management Platform</h2>
+                            <h2>The Hospital Management Platform</h2>
                         </div>
 
                         <div className="project" ref={ycDirectoryRef}>
                             <div className="image-wrapper bg-[#FFE7EB]">
-                                <img src="/images/project3.png" alt="YC Directory App" />
+                                <img src="/images/snapshotslogo.png" alt="A social media app" />
                             </div>
-                            <h2>YC Directory - A Startup Showcase App</h2>
+                            <h2>Snapshots - A social media App</h2>
                         </div>
                     </div>
                 </div>
