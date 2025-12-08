@@ -147,12 +147,13 @@ const expCards = [
             "Mahendran consistently brought innovation and technical depth to the team, modernizing our frameworks and improving app performance across platforms through his proactive approach.",
         imgPath: "/images/zoho.jpg",
         logoPath: "/images/zohoLogo.jpg",
-        title: "Member Technical Staff",
+        title: "Software Engineer",
         date: "April 2022 - July 2024",
         responsibilities: [
             "Redesigned core backend workflows including authentication, request validation, caching and database optimisation resulting in 25% lower PostgreSQL load and improved performance under high traffic.",
-            "Designed and deployed a UI framework using SwiftUI and UIKit, reducing redundant code by 50% across 20+ apps.",
-            "Optimized app performance by implementing async/await, reducing code lines by 20% and improving responsiveness by 25%.",
+            "Developed and optimized Spring Boot REST APIs for Zoho Desk, improving overall API response times by 30% through clean architecture design, efficient query handling and code review.",
+            "Enhanced microservice communication using Feign clients and structured request/response models, increasing system reliability and reducing inter-service failures by 20%.",
+            "Implemented robust exception handling and monitoring using Spring AOP and logging frameworks, improving issue detection speed and reducing production debugging time by 40%"
         ],
     },
     {
@@ -160,12 +161,12 @@ const expCards = [
             "Mahendran quickly mastered new technologies and delivered scalable, well-architected solutions. His problem-solving skills and dedication earned him the Best Performer award.”.",
         imgPath: "/images/zoho.jpg",
         logoPath: "/images/zohoLogo.jpg",
-        title: "Software Developer",
+        title: "Software Engineer",
         date: "April 2022 - June 2024",
         responsibilities: [
-            "Designed and implemented scalable Fintech and E-commerce applications using Java 8 and SQL, applying design patterns and SOLID principles for maintainability and scalability.",
-            "Collaborated with mentors and senior engineers to analyze requirements, design efficient data models, and deliver end-to-end solutions",
-            "Developed clean, reusable code architectures that improved modularity and reduced debugging time.",
+            "Contributed to the Zoho Desk iOS App (4.75/5 rating, 100K+ installs), implementing multiple features using SwiftUI, UIKit, and Combine. Implemented Instant Messaging features for an application using multiple bots and live person messaging.",
+            "Built a UI framework deployed via Cocoa Pods and SPM, standardizing 20+ apps and reducing development time by 50%.",
+            "Migrated applications from iOS 12 → iOS 14 and introduced iOS 17 support within a month, increasing team productivity by 10%. Improved app stability by optimizing CoreData, reducing crash rates by 40%.",
         ],
     },
     {
@@ -176,8 +177,8 @@ const expCards = [
         title: "Software Developer",
         date: "September 2021 - March 2022",
         responsibilities: [
-            "Built and optimized API endpoints using Python (FastAPI) and RedisDB, reducing response times by 20% and improving performance by 25%",
-            "Automated data extraction from Excel and Word files with custom Bash scripts, eliminating manual work and improving workflow efficiency.",
+            "Developed backend API endpoints using Python (FastAPI) with RedisDB caching, improving response latency by 20% and overall system performance by 25%.",
+            "Automated large-scale document extraction workflows using Bash + Linux scripts, saving 10+ hours/week of manual processing time.",
         ],
     },
 ];
