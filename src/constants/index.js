@@ -148,9 +148,9 @@ const expCards = [
         imgPath: "/images/zoho.jpg",
         logoPath: "/images/zohoLogo.jpg",
         title: "Member Technical Staff",
-        date: "July 2022 - July 2024",
+        date: "April 2022 - July 2024",
         responsibilities: [
-            "Led the migration of Zoho Desk iOS apps from iOS 12 to iOS 14 and introduced iOS 17 support, improving team productivity by 10%.",
+            "Redesigned core backend workflows including authentication, request validation, caching and database optimisation resulting in 25% lower PostgreSQL load and improved performance under high traffic.",
             "Designed and deployed a UI framework using SwiftUI and UIKit, reducing redundant code by 50% across 20+ apps.",
             "Optimized app performance by implementing async/await, reducing code lines by 20% and improving responsiveness by 25%.",
         ],
@@ -160,8 +160,8 @@ const expCards = [
             "Mahendran quickly mastered new technologies and delivered scalable, well-architected solutions. His problem-solving skills and dedication earned him the Best Performer award.”.",
         imgPath: "/images/zoho.jpg",
         logoPath: "/images/zohoLogo.jpg",
-        title: "Software Developer Intern",
-        date: "April 2022 - June 2022",
+        title: "Software Developer",
+        date: "April 2022 - June 2024",
         responsibilities: [
             "Designed and implemented scalable Fintech and E-commerce applications using Java 8 and SQL, applying design patterns and SOLID principles for maintainability and scalability.",
             "Collaborated with mentors and senior engineers to analyze requirements, design efficient data models, and deliver end-to-end solutions",
