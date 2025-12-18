@@ -49,17 +49,9 @@ const TechStack = () => {
     return (
         <div id="skills" className="flex-center section-padding">
             <div className="w-full h-full px-5">
-                <TitleHeader title="My Preferred Tech Stack" sub="🤝 The Skills I bring to the table" />
+                <TitleHeader title="My Artillery ⚔️🥷🏼" sub="🤝 The weapons I bring to the table" />
 
                 <div className="skill-intro card-border">
-                    <div>
-                        <p className="skill-intro__eyebrow">Text-first, loosely coupled</p>
-                        <h3 className="skill-intro__title">No 3D models—just the tools I actually ship with.</h3>
-                        <p className="skill-intro__desc">
-                            Swap skills in and out without reworking the layout. Each cluster shows where I apply
-                            the tools and how they fit together.
-                        </p>
-                    </div>
 
                     <div className="skill-highlight-grid">
                         {skillHighlights.map((highlight) => (
@@ -83,7 +75,6 @@ const TechStack = () => {
                                     <p className="skill-card__kicker">{group.usage}</p>
                                     <h4 className="skill-card__title">{group.title}</h4>
                                 </div>
-                                <span className="skill-card__badge">Swappable</span>
                             </div>
                             <p className="skill-card__desc">{group.description}</p>
                             <div className="skill-pill-grid">
