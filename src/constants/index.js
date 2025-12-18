@@ -108,36 +108,73 @@ const techStackImgs = [
     },
 ];
 
-const techStackIcons = [
+const skillHighlights = [
     {
-        name: "React Developer",
-        modelPath: "/models/react_logo-transformed.glb",
-        scale: 1,
-        rotation: [0, 0, 0],
+        label: "Daily drivers",
+        skills: ["React", "TypeScript", "Tailwind"],
     },
     {
-        name: "Python Developer",
-        modelPath: "/models/python-transformed.glb",
-        scale: 0.8,
-        rotation: [0, 0, 0],
+        label: "Shipping backend APIs",
+        skills: ["Node.js", "FastAPI", "PostgreSQL"],
     },
     {
-        name: "Backend Developer",
-        modelPath: "/models/node-transformed.glb",
-        scale: 5,
-        rotation: [0, -Math.PI / 2, 0],
+        label: "Motion & 3D",
+        skills: ["GSAP", "Three.js"],
+    },
+];
+
+const skillCategories = [
+    {
+        title: "Frontend & Interaction",
+        usage: "Primary toolkit",
+        description: "Pixel-perfect interfaces, motion systems, and web app shells.",
+        skills: [
+            "React",
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Three.js",
+            "GSAP",
+            "Vite",
+        ],
     },
     {
-        name: "Interactive Developer",
-        modelPath: "/models/three.js-transformed.glb",
-        scale: 0.05,
-        rotation: [0, 0, 0],
+        title: "Backend & APIs",
+        usage: "Reliable delivery",
+        description: "Designing and hardening services with clean contracts and observability.",
+        skills: [
+            "Node.js",
+            "Express",
+            "FastAPI",
+            "PostgreSQL",
+            "Redis",
+            "REST / GraphQL",
+            "JWT & OAuth",
+        ],
     },
     {
-        name: "Project Manager",
-        modelPath: "/models/git-svg-transformed.glb",
-        scale: 0.05,
-        rotation: [0, -Math.PI / 4, 0],
+        title: "DevOps & Quality",
+        usage: "Smooth releases",
+        description: "Keeping builds, deployments, and feedback loops predictable and fast.",
+        skills: [
+            "Docker",
+            "GitHub Actions",
+            "Vercel",
+            "CI/CD pipelines",
+            "Testing & linting",
+        ],
+    },
+    {
+        title: "Product & Collaboration",
+        usage: "Team glue",
+        description: "Bringing clarity with documentation, planning, and shared design systems.",
+        skills: [
+            "Agile facilitation",
+            "Notion / Confluence",
+            "Figma handoff",
+            "Architecture diagrams",
+            "Stakeholder updates",
+        ],
     },
 ];
 
@@ -275,7 +312,8 @@ export {
     expLogos,
     testimonials,
     socialImgs,
-    techStackIcons,
     techStackImgs,
     navLinks,
+    skillHighlights,
+    skillCategories,
 };

@@ -1,7 +1,6 @@
 import React from 'react'
 import TitleHeader from "../components/TitleHeader.jsx";
-import {techStackIcons} from "../constants/index.js";
-import TechIcon from "../components/Models/TechLogos/TechIcon.jsx";
+import { skillHighlights, skillCategories } from "../constants/index.js";
 
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
@@ -11,20 +10,37 @@ const TechStack = () => {
     useGSAP(() => {
 
         gsap.fromTo(
-            ".tech-card",
+            ".skill-card",
             {
                 y: 50,
                 opacity: 0,
             },
             {
-                y: 0, // Move the cards back to the top
-                opacity: 1, // Set the opacity to 1
-                duration: 1, // Duration of the animation
-                ease: "power2.inOut", // Ease of the animation
-                stagger: 0.2, // Stagger the animation by 0.2 seconds
+                y: 0,
+                opacity: 1,
+                duration: 1,
+                ease: "power2.inOut",
+                stagger: 0.2,
                 scrollTrigger: {
-                    trigger: "#skills", // Trigger the animation when the user scrolls to the #skills wrapper
-                    start: "top center", // Start the animation when the top of the wrapper is at the center of the screen
+                    trigger: "#skills",
+                    start: "top center",
+                },
+            }
+        );
+
+        gsap.fromTo(
+            ".skill-pill",
+            { opacity: 0, y: 15 },
+            {
+                opacity: 1,
+                y: 0,
+                delay: 0.2,
+                duration: 0.6,
+                stagger: 0.05,
+                ease: "power1.out",
+                scrollTrigger: {
+                    trigger: "#skills",
+                    start: "top center",
                 },
             }
         );
@@ -33,27 +49,52 @@ const TechStack = () => {
     return (
         <div id="skills" className="flex-center section-padding">
             <div className="w-full h-full px-5">
-                <TitleHeader title="My Preferred Tech Stack" sub="🤝 The Skills I bring to the table"/>
+                <TitleHeader title="My Preferred Tech Stack" sub="🤝 The Skills I bring to the table" />
 
-                <div className="tech-grid">
-                    {
-                        techStackIcons.map((icon) => (
-                            <div key={icon.name} className="card-border tech-card overflow-hidden group
-                            xl:rounded-full rounded-lg">
-                                <div className="tech-card-animated-bg"/>
-                                <div className="tech-card-content">
-                                    <div className="tech-icon-wrapper">
-                                        <TechIcon model={icon}/>
-                                    </div>
+                <div className="skill-intro card-border">
+                    <div>
+                        <p className="skill-intro__eyebrow">Text-first, loosely coupled</p>
+                        <h3 className="skill-intro__title">No 3D models—just the tools I actually ship with.</h3>
+                        <p className="skill-intro__desc">
+                            Swap skills in and out without reworking the layout. Each cluster shows where I apply
+                            the tools and how they fit together.
+                        </p>
+                    </div>
 
-                                    <div className="padding-x w-full">
-                                        <p>{icon.name}</p>
-                                    </div>
+                    <div className="skill-highlight-grid">
+                        {skillHighlights.map((highlight) => (
+                            <div key={highlight.label} className="skill-highlight card-border">
+                                <p className="skill-highlight__label">{highlight.label}</p>
+                                <div className="skill-pill-row">
+                                    {highlight.skills.map((skill) => (
+                                        <span key={skill} className="skill-pill skill-pill--ghost">{skill}</span>
+                                    ))}
                                 </div>
                             </div>
+                        ))}
+                    </div>
+                </div>
 
-                        ))
-                    }
+                <div className="skill-grid">
+                    {skillCategories.map((group) => (
+                        <div key={group.title} className="card-border skill-card">
+                            <div className="skill-card__header">
+                                <div>
+                                    <p className="skill-card__kicker">{group.usage}</p>
+                                    <h4 className="skill-card__title">{group.title}</h4>
+                                </div>
+                                <span className="skill-card__badge">Swappable</span>
+                            </div>
+                            <p className="skill-card__desc">{group.description}</p>
+                            <div className="skill-pill-grid">
+                                {group.skills.map((skill) => (
+                                    <span key={skill} className="skill-pill">
+                                        {skill}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>
