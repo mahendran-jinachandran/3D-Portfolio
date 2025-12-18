@@ -108,36 +108,63 @@ const techStackImgs = [
     },
 ];
 
-const techStackIcons = [
+const skillHighlights = [
     {
-        name: "React Developer",
-        modelPath: "/models/react_logo-transformed.glb",
-        scale: 1,
-        rotation: [0, 0, 0],
+        label: "Languages I ship in",
+        skills: ["C", "C++", "Java", "Python", "Swift"],
     },
     {
-        name: "Python Developer",
-        modelPath: "/models/python-transformed.glb",
-        scale: 0.8,
-        rotation: [0, 0, 0],
+        label: "Frontend & app frameworks",
+        skills: ["React", "TailwindCSS", "SwiftUI", "UIKit", "Combine"],
     },
     {
-        name: "Backend Developer",
-        modelPath: "/models/node-transformed.glb",
-        scale: 5,
-        rotation: [0, -Math.PI / 2, 0],
+        label: "Data & infrastructure",
+        skills: ["Apache Spark", "Kafka", "Airflow", "PostgreSQL", "RedisDB"],
+    },
+];
+
+const skillCategories = [
+    {
+        title: "Programming Languages",
+        usage: "Core stack",
+        description: "Systems, backend, and application development across compiled and interpreted languages.",
+        skills: ["C", "C++", "Java", "Python", "Swift", "LINUX", "Bash Scripts"],
     },
     {
-        name: "Interactive Developer",
-        modelPath: "/models/three.js-transformed.glb",
-        scale: 0.05,
-        rotation: [0, 0, 0],
+        title: "Frameworks & Libraries",
+        usage: "Building experiences",
+        description: "Web, mobile, and server frameworks for rapid delivery and polished UX.",
+        skills: [
+            "React",
+            "TailwindCSS",
+            "UIKit",
+            "SwiftUI",
+            "Spring Boot",
+            "PyTorch",
+            "TensorFlow",
+            "CUDA",
+            "Combine",
+            "XCTest",
+            "XCUITest",
+        ],
     },
     {
-        name: "Project Manager",
-        modelPath: "/models/git-svg-transformed.glb",
-        scale: 0.05,
-        rotation: [0, -Math.PI / 4, 0],
+        title: "Data & Big Data",
+        usage: "Processing & storage",
+        description: "Batch, streaming, orchestration, and data stores for resilient pipelines.",
+        skills: ["Apache Spark", "Kafka", "Airflow", "CoreData", "PostgreSQL", "RedisDB"],
+    },
+    {
+        title: "Cloud & Distribution",
+        usage: "Deploying reliably",
+        description: "Cloud services and dependency management for scalable delivery.",
+        skills: ["AWS (S3, Lambda, SageMaker)", "SPM", "Cocoa pods"],
+    },
+    {
+        title: "CI/CD & Ops",
+        usage: "Ship with confidence",
+        description: "Pipelines, containers, and version control to keep releases smooth.",
+        skills: ["Docker", "Git", "Jenkins"],
     },
 ];
 
@@ -275,7 +302,8 @@ export {
     expLogos,
     testimonials,
     socialImgs,
-    techStackIcons,
     techStackImgs,
     navLinks,
+    skillHighlights,
+    skillCategories,
 };
