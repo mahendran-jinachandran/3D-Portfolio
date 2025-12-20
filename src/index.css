@@ -141,6 +141,10 @@ section {
             }
         }
 
+        .actions {
+            @apply flex items-center gap-3;
+        }
+
         .contact-btn {
             @apply flex;
 
@@ -328,6 +332,49 @@ section {
 
     .skill-pill--ghost {
         @apply bg-transparent border border-blue-50 text-blue-50;
+    }
+
+    .blog-section {
+        @apply w-full md:mt-40 mt-20;
+    }
+
+    .blog-grid {
+        @apply grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 md:gap-8 mt-16;
+    }
+
+    .blog-card {
+        @apply h-full rounded-3xl bg-black-100 border border-black-50 p-6 md:p-7 flex flex-col gap-4 transition-all duration-300 hover:-translate-y-1;
+        background: radial-gradient(circle at 20% 20%, rgba(255, 255, 255, 0.06), transparent 35%),
+            radial-gradient(circle at 80% 0%, rgba(131, 156, 181, 0.08), transparent 30%),
+            #0e0e10;
+    }
+
+    .blog-meta {
+        @apply flex items-center justify-between gap-3 text-sm text-blue-50 flex-wrap;
+    }
+
+    .blog-date {
+        @apply uppercase tracking-[0.12em] font-semibold;
+    }
+
+    .blog-tags {
+        @apply flex flex-wrap gap-2;
+    }
+
+    .blog-tag {
+        @apply px-3 py-1 rounded-full bg-black-200 text-xs text-white border border-black-50;
+    }
+
+    .blog-title {
+        @apply text-xl md:text-2xl font-semibold text-white leading-tight;
+    }
+
+    .blog-summary {
+        @apply text-white-50 leading-relaxed;
+    }
+
+    .blog-link {
+        @apply mt-auto inline-flex items-center gap-2 text-white font-semibold transition-colors duration-300 hover:text-white-50;
     }
 
     form {

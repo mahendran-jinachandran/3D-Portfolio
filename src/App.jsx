@@ -8,22 +8,24 @@ import TechStack from "./sections/TechStack.jsx";
 import Testimonials from "./sections/Testimonials.jsx";
 import Contact from "./sections/Contact.jsx";
 import Footer from "./sections/Footer.jsx";
+import BlogSection from "./sections/BlogSection.jsx";
 
 const App = () => {
     return (
-    <>
-        <NavBar/>
-        <Hero/>
-        {<ShowCaseSection/>}
-        {/*<LogoSection/>*/}
-        {/*<FeatureCard/>*/}
-        <ExperienceSection/>
-        <TechStack/>
-        {/*<Testimonials />*/}
-        <Contact/>
-        <Footer/>
-    </>
+        <>
+            <NavBar />
+            <Hero />
+            {<ShowCaseSection />}
+            {/*<LogoSection/>*/}
+            {/*<FeatureCard/>*/}
+            <ExperienceSection />
+            <TechStack />
+            <BlogSection />
+            {/*<Testimonials />*/}
+            <Contact />
+            <Footer />
+        </>
     );
-} 
+};
 
-export default App
+export default App;
