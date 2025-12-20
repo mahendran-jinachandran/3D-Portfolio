@@ -141,6 +141,10 @@ section {
             }
         }
 
+        .actions {
+            @apply flex items-center gap-3;
+        }
+
         .contact-btn {
             @apply flex;
 
