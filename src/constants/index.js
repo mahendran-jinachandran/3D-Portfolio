@@ -299,36 +299,19 @@ const socialImgs = [
 
 const blogPosts = [
     {
-        title: "Building responsive 3D experiences in React",
+        title: "Docker for Beginners",
+        date: "Nov 2024",
+        tags: ["Docker", "AWS", "Cloud"],
+        summary: "Deployment without any dependency worries",
+        link: "https://medium.com/@mahendran29/docker-for-beginners-eb78b76a5083",
+    },
+
+    {
+        title: "What is Git? A Time Machine for Your Code",
         date: "June 2024",
-        tags: ["React", "Three.js", "Performance"],
-        summary:
-            "Lessons learned from shipping interactive 3D scenes that stay performant across devices.",
-        link: "https://example.com/3d-experiences-react",
-    },
-    {
-        title: "Backend patterns that scale without overengineering",
-        date: "May 2024",
-        tags: ["Architecture", "Spring Boot", "APIs"],
-        summary:
-            "Pragmatic patterns for keeping services fast, observable, and maintainable as they grow.",
-        link: "https://example.com/backend-patterns",
-    },
-    {
-        title: "Designing data pipelines for real-time analytics",
-        date: "April 2024",
-        tags: ["Kafka", "Airflow", "Data Engineering"],
-        summary:
-            "How to stitch together streaming and batch workflows for reliable insights under load.",
-        link: "https://example.com/realtime-analytics",
-    },
-    {
-        title: "From prototype to production: shipping iOS apps confidently",
-        date: "March 2024",
-        tags: ["iOS", "SwiftUI", "Testing"],
-        summary:
-            "A checklist for moving mobile features from concept to App Store with fewer surprises.",
-        link: "https://example.com/ios-production",
+        tags: ["GIT"],
+        summary: "What is Git? A Time Machine for Your Code",
+        link: "https://medium.com/@mahendran29/what-is-git-a-time-machine-for-your-code-cf0c7be8e2ff",
     },
 ];
 
