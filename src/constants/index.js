@@ -313,6 +313,14 @@ const blogPosts = [
         summary: "What is Git? A Time Machine for Your Code",
         link: "https://medium.com/@mahendran29/what-is-git-a-time-machine-for-your-code-cf0c7be8e2ff",
     },
+
+    {
+        title: "SOLID Principles in Java — A Practical Story, Not a Theory Lesson",
+        date: "Dec 2025",
+        tags: ["JAVA", "CODING", "CLEAN CODE", "SOLID"],
+        summary: "What is SOLID? A way to write clean code",
+        link: "https://medium.com/@mahendran29/solid-principles-in-java-a-practical-story-not-a-theory-lesson-c2a3072f874c",
+    },
 ];
 
 export {
